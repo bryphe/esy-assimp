@@ -1,0 +1,22 @@
+{
+  "name": "esy-assimp",
+  "version": "0.4.1",
+  "description": "Asset Import library, buildable by esy",
+  "license": "MIT",
+  "esy": {
+    "build": [
+        ["bash", "-c", "#{os == 'windows' ? './esy-configure-windows.sh' : './esy-configure.sh'}"],
+        ["make"]
+    ],
+    "buildsInSource": "_build"
+  },
+  "dependencies": {
+      "@bryphe/esy-cmake": "*"
+  },
+  "resolutions": {
+      "@bryphe/esy-cmake": "github:bryphe/esy-cmake#d94d318"
+  },
+  "devDependencies": {
+      "@bryphe/esy-cmake": "*"
+  }
+}

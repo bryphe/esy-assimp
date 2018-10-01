@@ -1,0 +1,4 @@
+mkdirp _build
+cd _build
+cmake -G "Unix Makefiles" ../ -DASSIMP_BUILD_ASSIMP_TOOLS=OFF -DASSIMP_BUILD_TESTS=OFF -DENABLE_BOOST_WORKAROUND=ON
+
