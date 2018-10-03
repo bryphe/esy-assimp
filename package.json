@@ -6,7 +6,7 @@
   "esy": {
     "build": [
         ["bash", "-c", "#{os == 'windows' ? './esy-configure-windows.sh' : './esy-configure.sh'}"],
-        ["make"]
+        ["./esy/build.sh"]
     ],
     "buildsInSource": "_build"
   },
