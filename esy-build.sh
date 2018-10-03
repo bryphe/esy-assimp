@@ -1,2 +1,4 @@
 cd _build
-make
+
+make VERBOSE=1
+make install VERBOSE=1
