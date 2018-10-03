@@ -1,0 +1,26 @@
+{
+  "hash": "c06c0e83231d75dbd2581e2496c83f9e",
+  "root": "esy-assimp@path:.",
+  "node": {
+    "esy-assimp@path:.": {
+      "record": {
+        "name": "esy-assimp",
+        "version": "path:.",
+        "source": "path:.",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "@bryphe/esy-cmake@github:bryphe/esy-cmake#5a40a8e" ]
+    },
+    "@bryphe/esy-cmake@github:bryphe/esy-cmake#5a40a8e": {
+      "record": {
+        "name": "@bryphe/esy-cmake",
+        "version": "github:bryphe/esy-cmake#5a40a8e",
+        "source": "github:bryphe/esy-cmake#5a40a8e",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    }
+  }
+}
