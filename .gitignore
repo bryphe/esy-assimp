@@ -83,3 +83,8 @@ lib64/assimp-vc120-mt.exp
 xcuserdata
 
 cmake-build-debug
+
+# esy
+_build/
+_esy/
+node_modules/
