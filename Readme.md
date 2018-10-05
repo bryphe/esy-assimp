@@ -1,3 +1,9 @@
+# ESY BUILD STATUS:
+[![Build status](https://ci.appveyor.com/api/projects/status/5sl6yi86ib2jrh27/branch/master?svg=true)](https://ci.appveyor.com/project/bryphe/esy-assimp/branch/master)
+
+[![Travis](https://travis-ci.org/bryphe/esy-assimp.svg?branch=master)](https://travis-ci.org/bryphe/esy-assimp)
+---
+
 Open Asset Import Library (assimp)
 ==================================
 A library to import and export various 3d-model-formats including scene-post-processing to generate missing render data.
