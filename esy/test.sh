@@ -24,6 +24,12 @@ $CXX ./../esy/test.cpp -o ./test -static -static-libgcc -static-libstdc++ -I$INC
 
 echo "** Compile successful; running test app **"
 
+if which x86_64-w64-mingw32-gcc; then
+    echo "  - Copying runtime files for Windows..."
+    cp $cur__bin/cygassimp-4.dll cygassimp-4.dll
+    cp /usr/x86_64-w64-mingw32/sys-root/mingw/bin/*.dll .
+fi
+
 # Need to include bin path for cygwin runtime dll
 
 export PATH=$PATH:$BIN
