@@ -15,6 +15,10 @@ fi
 
 echo "Using compiler: $CC"
 
+echo "** INSTALL **"
+ls -a $cur__install
+echo "|-- "
+
 echo "include..."
 ls -a $INCLUDE
 echo "lib.."
